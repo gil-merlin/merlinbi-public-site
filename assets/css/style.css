@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #213b52;
+  background: #395E9D;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -82,7 +82,7 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 16px 0;
-  background: #213b52;
+  background: #395E9D;
 }
 
 #header .logo h1 {
@@ -163,7 +163,7 @@ h6 {
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #213b52;
+  background: #395E9D;
   color: #fff;
   padding: 4px 25px 6px 25px;
   margin-left: 30px;
@@ -174,7 +174,7 @@ h6 {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   background: #fdc134;
-  color: #213b52;
+  color: #395E9D;
 }
 
 .navbar .dropdown ul {
@@ -307,7 +307,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #213b52;
+  color: #395E9D;
 }
 
 .navbar-mobile a:hover,
@@ -363,16 +363,24 @@ h6 {
 #hero {
   width: 100%;
   padding: 0 0 0 0;
-  background: #213b52;
-  background: linear-gradient(180deg, #213b52 0%, rgb(33, 60, 84) 35%, rgb(32, 69, 100) 100%);
+  background: #395E9D;
+  
+  background: linear-gradient(180deg, #395E9D 0%, rgb(242, 246, 250) 70%, rgb(57, 94, 157) 100%);
 }
+/*
+background: linear-gradient(180deg, #395E9D 0%, rgb(57, 94, 157) 35%, rgb(242, 246, 250) 100%);
+background: linear-gradient(180deg, #395E9D 0%, rgb(57, 94, 157) 35%, rgb(57-1, 94+9, 157+16) 100%);
+Previous values ^
+background: #213b52;
+background: linear-gradient(180deg, #213b52 0%, rgb(33, 60, 84) 35%, rgb(32, 69, 100) 100%);
+*/
 
 #hero h1 {
   margin: 0 0 15px 0;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #d2e0ed;
+  color: #fff;
   font-family: "Poppins", sans-serif;
 }
 
@@ -383,7 +391,7 @@ h6 {
 }
 
 #hero .btn-get-started {
-  color: #213b52;
+  color: #395E9D;
   border-radius: 50px;
   padding: 8px 35px 10px 35px;
   border: 2px solid #fdc134;
@@ -460,7 +468,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   font-family: "Poppins", sans-serif;
-  color: #213b52;
+  color: #395E9D;
 }
 
 .section-title h2::before {
@@ -570,7 +578,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #213b52;
+  color: #395E9D;
 }
 
 .about .content p {
@@ -581,11 +589,11 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin: 5px 0 10px 60px;
-  color: #213b52;
+  color: #395E9D;
 }
 
 .about .content .icon-box h4 a {
-  color: #213b52;
+  color: #395E9D;
   transition: 0.3s;
 }
 
@@ -669,7 +677,7 @@ section {
 }
 
 .services .card-title a {
-  color: #213b52;
+  color: #395E9D;
   transition: 0.3s;
 }
 
@@ -711,7 +719,7 @@ section {
 .features .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #213b52;
+  color: #395E9D;
 }
 
 .features .content ul {
@@ -947,7 +955,7 @@ section {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
-  color: #213b52;
+  color: #395E9D;
 }
 
 .team .member span {
@@ -1056,7 +1064,7 @@ section {
 }
 
 .pricing .get-started-btn {
-  background: #213b52;
+  background: #395E9D;
   display: inline-block;
   padding: 6px 30px;
   border-radius: 20px;
