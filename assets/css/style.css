@@ -1271,11 +1271,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") center center no-repeat;
+  background: #395E9D;
   color: #fff;
   font-size: 14px;
   position: relative;
 }
+/*
+background: url("../img/footer-bg.jpg") center center no-repeat;
+*/
 
 #footer::before {
   content: "";
