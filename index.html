@@ -303,10 +303,61 @@
           </div>
           <div class="col-md-7 pt-5" data-aos="fade-left">
             <h3>Insights that were previously lost in averages</h3>
-            <p>Merlin BI identifies patterns to provide a comprehensive unverstanding of your users' activity, ensuring you don't miss hidden issues and opportunities beyond what you would be able to see on dashboards.</p>
-            <p>
-              <img src="assets/img/features-3-a.png" class="img-fluid" alt="">
+            <style>
+                .hidden {
+                    display: none;
+                }
+
+                #exampleButton {
+                    padding: 0px 0px;
+                    background-color: transparent;
+                    color: #395E9D;
+                    border: none;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease-in-out;
+                }
+                #exampleButton:hover {
+                    background-color: #eee;
+                }
+                .arrow::after {
+                    content: '\25B6'; /* Right-pointing triangle (▶) */
+                    display: inline-block;
+                    margin-left: 5px;
+                    transform: rotate(0deg);
+                    transition: transform 0.3s ease-in-out;
+                }
+
+                .unfolded .arrow::after {
+                    transform: rotate(90deg); /* Rotate the arrow when unfolded */
+                }
+            </style>
+            <p>Merlin BI identifies patterns to provide a comprehensive unverstanding of your users' activity, ensuring you don't miss hidden issues and opportunities beyond what you would be able to see on dashboards.
+              <button id="exampleButton" onclick="toggleImage()">See an example<span id="icon" class="arrow"></span></button>
             </p>
+            
+            <div id="imageContainer" class="hidden">
+                <img src="assets/img/features-3-a.png" class="img-fluid" alt="">
+            </div>
+
+            <script>
+                // Inline JavaScript
+                function toggleImage() {
+                    const imageContainer = document.getElementById("imageContainer");
+                    const button = document.getElementById("exampleButton");
+
+                    if (imageContainer.classList.contains("hidden")) {
+                        imageContainer.classList.remove("hidden");
+                        button.classList.add("unfolded"); // Add class to indicate unfolded
+                    } else {
+                        imageContainer.classList.add("hidden");
+                        button.classList.remove("unfolded"); // Remove class to indicate folded
+                    }
+                }
+            </script>
+
+            <!--<p>
+              <img src="assets/img/features-3-a.png" class="img-fluid" alt="">
+            </p>-->
           </div>
         </div>
 
