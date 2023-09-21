@@ -363,10 +363,15 @@ h6 {
 #hero {
   width: 100%;
   padding: 0 0 0 0;
-  background: #395E9D;
-  
   background: linear-gradient(180deg, #395E9D 0%, rgb(242, 246, 250) 70%, rgb(57, 94, 157) 100%);
 }
+
+@media only screen and (max-width: 600px), only screen and (orientation: portrait) {
+  #hero {
+    background: #395E9D;
+  }
+}
+
 /*
 background: linear-gradient(180deg, #395E9D 0%, rgb(57, 94, 157) 35%, rgb(242, 246, 250) 100%);
 background: linear-gradient(180deg, #395E9D 0%, rgb(57, 94, 157) 35%, rgb(57-1, 94+9, 157+16) 100%);
