@@ -419,7 +419,7 @@ background: linear-gradient(180deg, #213b52 0%, rgb(33, 60, 84) 35%, rgb(32, 69,
 
 #hero .hero-img {
   filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.7)); /* Initial glow effect */
-  animation: heroglow 1.5s infinite alternate; /* Glowing animation */
+  animation: heroglow 1.4s infinite alternate; /* Glowing animation */
 }
 
 @keyframes heroglow {
